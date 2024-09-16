@@ -12,6 +12,17 @@ body {
     padding: 0 32px 0 32px;
 }
 
+button {
+    background-color: #d64e48;
+    padding: 1rem 6rem;
+    color:white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 28px;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -29,14 +40,10 @@ h2 {
     margin: 0;
 }
 
-#inputs {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 8rem;
-    height: 8rem;
+label {
+    color: white;
+    font-size: 21px;
 }
-
 
 input, select {
     width: 100%;
@@ -48,6 +55,15 @@ input, select {
     color: white;
 }
 
+#inputs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 8rem;
+    height: 8rem;
+}
+
+
 p, #planets, #user-weight {
     color: white;
 }
@@ -56,16 +72,7 @@ p, #planets, #user-weight {
     font-size: 24px;
 }
 
-button {
-    background-color: #d64e48;
-    padding: 1rem 6rem;
-    color:white;
-    font-weight: bolder;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    font-size: 28px;
-}
+
 
 #exclude-pluto {
     width: 1rem;
@@ -79,10 +86,6 @@ button {
     color: white;
 }
 
-label {
-    color: white;
-    font-size: 21px;
-}
 
 #custom-planet {
     align-items: start;
