@@ -1,0 +1,96 @@
+html {
+    background-color:#04052e;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    gap: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px 0 32px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #d64e48;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #d64e48;
+    font-size: 2rem;
+    margin: 0;
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 8rem;
+    height: 8rem;
+}
+
+
+input, select {
+    width: 100%;
+    height: 4rem;
+    font-size: large;
+    background-color: #04052e;
+    border: 0px;
+    border-bottom: 2px solid #d64e48;
+    color: white;
+}
+
+p, #planets, #user-weight {
+    color: white;
+}
+
+#output {
+    font-size: 24px;
+}
+
+button {
+    background-color: #d64e48;
+    padding: 1rem 6rem;
+    color:white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+#exclude-pluto {
+    width: 1rem;
+    height: 1rem;
+}
+
+#planets-container, #user-weight-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+label {
+    color: white;
+    font-size: 21px;
+}
+
+#custom-planet {
+    align-items: start;
+    width: 100%;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+
+
+
